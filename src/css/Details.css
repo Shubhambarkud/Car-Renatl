@@ -1,0 +1,369 @@
+.frame {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    gap: 24px;
+    padding: 60px 312px;
+}
+
+.frameTI {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frameTITI {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frameTITIText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frameTITITextOne {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.frameTITITextTwo {
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.frameTITITextTwoOne {
+    color: #5937E0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.frameTITITextTwoTwo {
+    color: #00000099;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+
+
+.frameTII {
+    width: 636px;
+    display: flex;
+    gap: 24px;
+
+    img {
+        width: 140px;
+        height: 100px;
+        border-radius: 12px;
+    }
+}
+
+.frameTCB {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.frameTCBTextCard {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.frameTCBTCCard {
+    width: 636px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.frameCard {
+    /* border: 1px solid maroon; */
+    width: 196px;
+    height: 148px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frameCardIcon {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.frameCardText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.frameCardTextOne {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.frameCardTextTwo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #00000099;
+}
+
+.frameTitle {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.frameTCBButton{
+    width: 290px;
+    height: 50px;
+    background-color: #5937E0;
+    color: #ffffff;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.frameTCBTextIcons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.frameTCBTIIconText{
+    display: flex;
+    gap: 60px;
+}
+
+.frameTCBcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.frameTCBcolumnItem{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.frameTCBcolumnItem1{
+    width: 24px;
+    height: 24px;
+    background-color: #5937E0;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frameTCBcolumnItem2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #00000099;
+}
+
+
+.chooseTheCar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 312px;
+
+}
+
+.CTCTextIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1296px;
+    /* border: 1px solid black; */
+}
+
+.CTCTIText {
+    /* border: 1px solid black; */
+    width: 631px;
+    height: 118px;
+
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.CTCTITextIcon {
+    display: flex;
+    gap: 8px;
+}
+
+.CTCTITextIconText {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.CTCTITextIconIcon {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.CTCCards {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1296px;
+    gap: 24px;
+}
+
+.CTCCardsCard {
+    /* border: 1px solid maroon; */
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 416px;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.CTCImageTextIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CTCITIImage {
+    height: 240px;
+}
+
+.CTCITITextIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.CTCITITIText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTCITITITextOne {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.CTCITITITextOneOne {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.CTCITITITextOneTwo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.CTCITITITextTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.CTCITITITextTwoOne {
+    font-family: "Work Sans", sans-serif;
+    color: #5937E0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.CTCITITITextTwoTwo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.CTCITITITextIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTCITITITextIconOne {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.CTCITITITextIconOneOne {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.CTCITITITextIconOneTwo {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #00000099;
+}
+
+.CTCCardButton {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    height: 50px;
+    border-radius: 12px;
+    padding: 13px 28px;
+    background-color: #5937E0;
+
+    font-size: 16px;
+    font-weight: 600;
+}

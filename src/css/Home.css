@@ -1,0 +1,692 @@
+.hero {
+    /* border: 1px solid black;  */
+    width: 1920px;
+    height: 660px;
+    padding: 0 312px;
+}
+
+.heroContent {
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #5937E0;
+    border-radius: 40px;
+    height: 660px;
+    padding: 78px 72px;
+    overflow: hidden;
+}
+
+.heroImage {
+    position: absolute;
+    bottom: 0;
+    left: 344.5px;
+    z-index: 2;
+}
+.heroImageGroup{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heroImage img {
+    /* border: 1px solid black; */
+
+    /* height: 418px; */
+    width: 698px;
+    /* margin-top: 243px; */
+    /* margin-left: 344.5px; */
+}
+
+.TextButtonForm {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 44px;
+    z-index: 3;
+}
+
+.textButtonContent {
+    /* border: 1px solid black; */
+    width: 686px;
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    gap: 33px;
+}
+
+.textButtonContentText {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    /* width: 686px; */
+    height: 228px;
+    gap: 27px;
+}
+
+.textButtonContentTextOne {
+    font-family: "Work Sans", sans-serif;
+    /* border: 1px solid black; */
+    color: #ffffff;
+    font: bold;
+    font-weight: 700;
+    font-size: 60px;
+    height: 145px;
+}
+
+.textButtonContentTextTwo {
+    font-family: "Work Sans", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 464px;
+    height: 56px;
+}
+
+.textButtonContentButton button {
+    background-color: #FF9E0C;
+    height: 40px;
+    width: 154px;
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    /* padding: 13px 18px; */
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+
+.FIformA{
+    font-family: "Work Sans", sans-serif;
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.FIformHeadingA{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+    /* color: #FFFFFF; */
+
+}
+
+.FIformInputA{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FIfield1A{
+    width: 336px;
+    background-color: #FAFAFA;
+    /* color: #FFFFFF; */
+    border-radius: 12px;
+    padding: 9px 16px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.FIformButtonA{
+    height: 40px;
+    width: 336px;
+    border-radius: 12px;
+    padding: 13px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9E0C;
+
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+
+.infoBlock {
+    /* border: 1px solid black; */
+    /* height: 314px; */
+    padding: 60px 312px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.IBIconText {
+    /* border: 1px solid maroon; */
+    width: 357px;
+    /* height: 194px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+}
+
+.IBIconTextIconText {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.IBITITIcon {
+    /* border: 1px solid grey; */
+    height: 64px;
+    width: 64px;
+}
+
+.IBITITText {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.IBIconTextText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.infoBlock2 {
+    /* border: 1px solid maroon; */
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding: 60px 72px 60px 398px;
+}
+
+.IB2image {
+    border-radius: 20px;
+
+    img {
+        width: 550px;
+        height: 549px;
+    }
+}
+
+.IB2text {
+    /* border: 1px solid maroon; */
+    width: 550px;
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.IB2textText {
+    /* border: 1px solid burlywood; */
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.IB2TTtextBg {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.IB2TTtextBgBg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 32px;
+    height: 32px;
+    background-color: #5937E0;
+    border-radius: 50%;
+    padding: 4px 10px;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.IB2TTtextBgText {
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 100%; */
+}
+
+.chooseTheCar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 312px;
+
+}
+
+.CTCTextIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1296px;
+    /* border: 1px solid black; */
+}
+
+.CTCTIText {
+    /* border: 1px solid black; */
+    width: 631px;
+    height: 118px;
+
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.CTCTITextIcon {
+    display: flex;
+    gap: 8px;
+}
+
+.CTCTITextIconText {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.CTCTITextIconIcon {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.CTCCards {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1296px;
+    gap: 24px;
+}
+
+.CTCCardsCard {
+    /* border: 1px solid maroon; */
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 416px;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.CTCImageTextIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CTCITIImage {
+    height: 240px;
+}
+
+.CTCITITextIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.CTCITITIText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTCITITITextOne {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.CTCITITITextOneOne {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.CTCITITITextOneTwo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.CTCITITITextTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.CTCITITITextTwoOne {
+    font-family: "Work Sans", sans-serif;
+    color: #5937E0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.CTCITITITextTwoTwo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.CTCITITITextIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTCITITITextIconOne {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.CTCITITITextIconOneOne {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.CTCITITITextIconOneTwo {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #00000099;
+}
+
+.CTCCardButton {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    height: 50px;
+    border-radius: 12px;
+    padding: 13px 28px;
+    background-color: #5937E0;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 60px 312px;
+    /* position: relative; */
+
+}
+
+.subBanner {
+    background-color: #5937E0;
+    border-radius: 20px;
+    padding: 60px 72px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 80px;
+    height: 486px;
+    position: relative;
+    z-index: 2;
+}
+
+.bannerImage {
+    color: black;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    height: 483px;
+    width: 799px;
+    z-index: 1;
+}
+
+.bannerGroupimage{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* transform: rotate(18.66deg); */
+}
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* line-height: 100%; */
+
+    font-family: "Work Sans", sans-serif;
+
+    z-index: 2;
+}
+
+.bannerTextOne {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.bannerTextTwo {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+.bannerCounter {
+    display: flex;
+    width: 1296px;
+    gap: 64px;
+
+    z-index: 2;
+}
+
+.bannerCounterCard {
+    background-color: #ffffff;
+    display: flex;
+    width: 240px;
+    border-radius: 20px;
+    gap: 16px;
+    padding: 16px;
+}
+
+.bannerCounterCardIcon {
+    width: 72px;
+    height: 68px;
+    border-radius: 12px;
+    background-color: #FF9E0C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 40px;
+        height: 40px;
+
+    }
+}
+
+.bannerCounterCardText {
+    font-family: "Work Sans", sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.bannerCounterCardTextOne {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.bannerCounterCardTextTwo {
+    color: #00000099;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.download {
+    font-family: "Work Sans", sans-serif;
+    /* border: 1px solid black; */
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 360px 45px 398px;
+    gap: 110px;
+}
+
+.downloadApp {
+    width: 536px;
+    /* border: 1px solid maroon; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.downloadAppText {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.downloadAppTextBold {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.downloadAppTextNormal {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.downloadAppButton {
+    display: flex;
+    gap: 40px;
+}
+
+
+.downloadIcon {
+    width: 401px;
+    height: 601px;
+}
+
+.banner2 {
+    font-family: "Work Sans", sans-serif;
+    /* border: 1px solid black; */
+    padding: 60px 312px;
+}
+
+.subBanner2 {
+    /* border: 1px solid maroon; */
+    height: 415px;
+    background-color: #5937E0;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.banner2GroupImage{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 1;
+}
+
+.banner2Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 756px;
+    gap: 60px;
+    z-index: 2;
+}
+
+.banner2TextBold {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner2TextButton {
+    /* border: 1px solid black; */
+    /* max-width: 550px; */
+    width: 550px;
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+}
+
+.B2TBText {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.B2TBButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 464px;
+    /* width: 464px; */
+    height: 60px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.B2TBButtonText {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #6C757D;
+}
+
+.B2TBButtonButton {
+    display: flex;
+    align-items: center;
+    background-color: #FF9E0C;
+    color: #ffffff;
+    border-radius: 12px;
+    height: 40px;
+    padding: 13px 28px;
+}
+

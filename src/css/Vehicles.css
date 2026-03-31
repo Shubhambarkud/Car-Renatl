@@ -1,0 +1,199 @@
+.textTabCards{
+    /* border: 1px solid black; */
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 312px;
+}
+
+.text{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.tab{
+    display: flex;
+    gap: 24px;
+}
+
+.tabBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 148px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #F9F9F9;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.tabBox:hover{
+    background-color: #5937E0;
+    color: #ffffff;
+}
+
+.cards{
+    width: 1296px;
+    gap: 24px;
+
+    display: grid;
+    /* row-gap: 20px; */
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.CTCCards {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1296px;
+    /* gap: 24px; */
+}
+
+.CTCCardsCard {
+    /* border: 1px solid maroon; */
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 416px;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.CTCImageTextIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CTCITIImage {
+    height: 240px;
+}
+
+.CTCITITextIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.CTCITITIText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTCITITITextOne {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.CTCITITITextOneOne {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.CTCITITITextOneTwo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.CTCITITITextTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.CTCITITITextTwoOne {
+    font-family: "Work Sans", sans-serif;
+    color: #5937E0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.CTCITITITextTwoTwo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.CTCITITITextIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTCITITITextIconOne {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.CTCITITITextIconOneOne {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.CTCITITITextIconOneTwo {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #00000099;
+}
+
+.CTCCardButton {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    height: 50px;
+    border-radius: 12px;
+    padding: 13px 28px;
+    background-color: #5937E0;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 60px 312px;
+}
+
+.innerLogos{
+    width: 1296px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    padding: 60px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabBox.active {
+    background-color: #3563E9;
+    color: #fff;
+    border-color: #3563E9;
+}

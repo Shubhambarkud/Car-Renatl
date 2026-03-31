@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Mercedes",
+        "rent": 25,
+        "type": "Sedan",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/mercedes_sedan.png"
+    },
+    {
+        "id": 2,
+        "name": "Mercedes",
+        "rent": 50,
+        "type": "Sport",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/mercedes_sport.png"
+    },
+    {
+        "id": 3,
+        "name": "Mercedes",
+        "rent": 45,
+        "type": "Sedan",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/mercedes_sedan.png"
+    },
+    {
+        "id": 4,
+        "name": "Porsche",
+        "rent": 40,
+        "type": "SUV",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/porsche_suv.png"
+    },
+    {
+        "id": 5,
+        "name": "Toyata",
+        "rent": 35,
+        "type": "Sedan",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/toyota_sedan.png"
+    },
+    {
+        "id": 6,
+        "name": "Porsche",
+        "rent": 50,
+        "type": "SUV",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/porsche_suv.png"
+    },
+    {
+        "id": 7,
+        "name": "Porsche",
+        "rent": 40,
+        "type": "Cabriolet",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/porsche_suv.png"
+    },
+    {
+        "id": 8,
+        "name": "Toyata",
+        "rent": 35,
+        "type": "Pick up",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/toyota_sedan.png"
+    },
+    {
+        "id": 9,
+        "name": "Porsche",
+        "rent": 50,
+        "type": "Minivan",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/porsche_suv.png"
+    },
+    {
+        "id": 10,
+        "name": "Porsche",
+        "rent": 40,
+        "type": "Cabriolet",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/porsche_suv.png"
+    },
+    {
+        "id": 11,
+        "name": "Toyata",
+        "rent": 35,
+        "type": "Pick up",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/toyota_sedan.png"
+    },
+    {
+        "id": 12,
+        "name": "Porsche",
+        "rent": 50,
+        "type": "Minivan",
+        "transmission": "Automat",
+        "fuel": "PB 95",
+        "air": "Air Conditioner",
+        "image": "../src/assets/porsche_suv.png"
+    }
+]

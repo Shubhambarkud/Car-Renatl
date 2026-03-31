@@ -1,0 +1,205 @@
+
+.titleText{
+    font-family: "Work Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.heroText{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #9B9B9B;
+
+    span{
+        color: #000000;
+    }
+}
+
+.hero3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 69px 0;
+}
+
+.formImage{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 60px 312px;
+}
+
+.FIform{
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #5937E0;
+}
+
+.FIformHeading{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
+
+.FIformInput{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FIfield1{
+    width: 336px;
+    background-color: #694BE3;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 9px 16px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.FIformButton{
+    height: 40px;
+    width: 336px;
+    border-radius: 12px;
+    padding: 13px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9E0C;
+
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.FIimage{
+    width: 856px;
+    height: 503px;
+    border-radius: 20px;
+}
+
+.contactUs{
+    font-family: "Work Sans", sans-serif;
+    padding: 60px 312px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CUIT{
+    display: flex;
+    gap: 12px;
+}
+
+.CUITiconBg{
+    width: 64px;
+    height: 64px;
+    background-color: #FF9E0C;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CUITtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 6px; */
+}
+
+.CUITtextItem{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.CUITtextValue{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.blog{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.blogCards{
+    width: 1296px;
+    display: flex;
+    gap: 24px;
+}
+
+.BGcard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.BGCimage{
+    border-radius: 20px;
+    height: 240px;
+}
+
+.BGCtext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.BGCtext1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.BGCtext2{
+    color: #00000099;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 60px 312px;
+}
+
+.innerLogos{
+    width: 1296px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    padding: 60px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,453 @@
+#body{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+.titleText{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.hero2{
+    /* border: 1px solid black; */
+    font-family: "Work Sans", sans-serif;
+    width: 1296px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heroText{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #9B9B9B;
+
+    span{
+        color: #000000;
+    }
+}
+
+.secondsection{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 312px;
+}
+
+.secondClass{
+    width: 1296px;
+    display: flex;
+    gap: 80px;
+}
+
+.SCTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.SCTitle{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.SCText{
+    font-family: "Inter", sans-serif;
+    /* border: 1px solid black; */
+    width: 382px;
+    height: 75px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.SCcolumn{
+    display: flex;
+    gap: 24px;
+}
+
+.SCCard{
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video{
+    padding-top: 60px;
+    /* height: 660px; */
+    /* border: 1px solid black; */
+}
+
+.counter{
+    /* border: 1px solid black;  */
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 352px;
+    width: 1920px;
+}
+
+.counterBox{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.counterTitle{
+    color: #5937E0;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.counterText{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.infoBlock{
+    font-family: "Work Sans", sans-serif;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    padding: 60px 312px;
+}
+.IBText{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.IBText2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    color:  #00000099;
+}
+
+.IBText3{
+    /* border: 2px solid gray; */
+    display: flex;
+    gap: 40px;
+}
+
+.IBText31{
+    /* border: 1px solid maroon; */
+    display: flex;
+    gap: 10px;
+    max-width: 301.5px;
+}
+.IBText311{
+    background-color: #5937E0;
+    border-radius: 50%;
+    width: 69px;
+    /* width: 32px; */
+    height: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IBText312{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #00000099;
+}
+.IBimg{
+    width: 550px;
+    height: 549px;
+}
+
+.AUbanner{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+
+.AUbannerBox{
+    background-color: #5937E0;
+    border-radius: 40px;
+    width: 1296px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 130px; */
+    padding: 80px 136px 80px 560px;
+    opacity: 96%;
+    position: relative;
+}
+
+.AUbannerImage{
+    position: absolute;
+    left: 153px;
+    bottom: 67px;
+}
+
+.AUbannerTB{
+    /* position: relative; */
+    /* opacity: 2; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.AUbannertextTitle{
+     /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.AUbannertextText{
+   
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+
+.AUbannerImageGroup{
+    position: absolute;
+    left: 385px;
+    top: 35px;
+    z-index: 1;
+}
+
+.AUbannertextTitle1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.AUbannertextTitle2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.AUbannerButton{
+    display: flex;
+    gap: 24px;
+}
+
+.testimonials{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 312px;
+}
+
+.Tcards{
+    display: flex;
+    gap: 24px;
+}
+
+.Tcardscard{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    width: 416px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    
+}
+
+.TCupper{
+    display: flex;
+    padding-top: 128px;
+    padding-left: 36px;
+    padding-bottom: 113px;
+}
+
+.TCupperText{
+    /* border: 1px solid black; */
+    width: 344px;
+    height: 115px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.TClower{
+    height: 124px;
+    width: 416px;
+    background-color: #5937E0;
+    border-radius: 0 0 20px 20px;
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.TClowertext1{
+    color: #FFFFFF99;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.TClowertext2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.Tcardscardimg1{
+    position: absolute;
+    top: 52px;
+    left: 55px;
+}
+
+.Tcardscardimg2{
+    position: absolute;
+    bottom: 82px;
+    left: 166px;
+}
+
+.FAQ{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 312px 0 312px;
+}
+
+.ACheading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.ACtext{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00000099;
+}
+
+.FAQAC1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.FAQAC2{
+    width: 1296px;
+    border: 2px solid gray;
+    /* border-radius: 20px; */
+    /* padding: 40px; */
+}
+
+
+
+.lowerBanner{
+    font-family: "Work Sans", sans-serif;
+    /* border: 1px solid black; */
+    padding: 60px 312px;
+}
+
+.LB2{
+    border: 1px solid maroon;
+    height: 427px;
+    width: 1296px;
+    background-color: #5937E0;
+    border-radius: 20px;
+    position: relative;
+}
+
+.lowerBannercar{
+    position: absolute;
+    top: 45px;
+    left: 609px;
+}
+
+.lowerBannergroup{
+    position: absolute;
+    bottom: 236px;
+    z-index: 1;
+}
+
+.LB2TB{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 82px;
+    padding-left: 86px;
+    /* z-index: 2; */
+}
+
+.LB2TBtext{
+    /* position: relative; */
+    width: 523px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    z-index: 2;
+}
+
+.LB2TBtext2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.LB2TBtext3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.LB2TBbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 28px;
+    height: 40px;
+    background-color: #FF9E0C;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+}

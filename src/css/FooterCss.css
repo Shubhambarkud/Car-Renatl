@@ -1,0 +1,144 @@
+ .footer {
+        /* border: 1px solid black; */
+        font-family: "Work Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        padding: 60px 72px 40px 72px;
+    }
+
+    .footerITB {
+        /* border: 1px solid maroon; */
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footerITBIconText {
+        /* border: 1px solid black; */
+        width: 1296px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footerCardOne {
+        /* border: 1px solid green; */
+        width: 180px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .footerCardOneIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+    }
+
+    .footerCardOneText {
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+    .footerCardOneIcon1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: #FF9E0C;
+        border-radius: 50%;
+    }
+
+    .footerCardOneText1 {
+        display: flex;
+        flex-direction: column;
+        /* gap: 12px; */
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .footerCardOneText11 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .footerCardOneText12 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    .footerITBTextIcon {
+        width: 1296px;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .footerCardTwo {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 35px;
+    }
+
+    .footerCardTwoText {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .footerCardTwoIcon {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footerCardTwo1 {
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 180px;
+    }
+
+    .footerCardTwo1Text1 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+
+    .footerCardTwo1Text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footerCardTwo1Text21 {
+        font-size: 16px;
+        font-weight: 400;
+        /* line-height: 26px; */
+    }
+
+    .footerCardTwo1TextIcon {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footerCopyright {
+        color: #00000080;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+    }
